@@ -2,4 +2,20 @@
 <resources>
 
     <style name="Theme.TifoFan" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.MyApp.Splash" parent="Theme.SplashScreen">
+        <!-- Background color -->
+        <item name="windowSplashScreenBackground">@color/teal_200</item>
+
+        <!-- Center icon -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/tifofan_background_2732</item>
+
+        <!-- Duration of icon animation (optional) -->
+        <item name="windowSplashScreenAnimationDuration">300</item>
+
+        <!-- Theme after splash -->
+        <item name="postSplashScreenTheme">@style/Theme.TifoFan</item>
+    </style>
+
 </resources>
+

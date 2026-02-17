@@ -60,4 +60,8 @@ dependencies {
     // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.analytics)
+
+    // Splash activity
+    implementation("androidx.core:core-splashscreen:1.2.0")
+
 }
